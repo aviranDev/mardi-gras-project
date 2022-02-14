@@ -1,0 +1,7 @@
+@local = http://localhost:3900
+
+### Get card by its ID
+GET {{local}}/api/cards/one/61d7638c96fdedd30be0912a
+
+
+

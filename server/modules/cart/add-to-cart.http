@@ -1,0 +1,5 @@
+@local = http://localhost:3900
+
+GET {{local}}/api/cart/add-to-cart/61df85901f18999f397c5110
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRjYjY4ZmZlZjM4YTY0MzBlZjQxOGUiLCJiaXoiOmZhbHNlLCJpYXQiOjE2NDI5ODY1MDZ9.oznOPSkB6-HgpBQiwXXRvxxd28svgJMlfVl9rPKq-oQ
+

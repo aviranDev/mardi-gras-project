@@ -1,0 +1,7 @@
+@local = http://localhost:3900
+
+### Get card by its ID
+GET {{local}}/api/cards/own/61d7638c96fdedd30be0912a
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWQ3NjM1Mjk2ZmRlZGQzMGJlMDkxMWYiLCJiaXoiOnRydWUsImlhdCI6MTY0MTUwNTYyN30.hazlPXvUUGzc9ZZMcUsdNU6ZV4HiOevDDZi_3Rqx5Wk
+
+

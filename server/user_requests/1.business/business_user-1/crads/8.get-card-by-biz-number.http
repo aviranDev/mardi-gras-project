@@ -1,0 +1,8 @@
+@local = http://localhost:3900
+
+
+### Get card by user_biz-number
+GET {{local}}/api/cards/advertisement-biz-card/5880747
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTlmZmYyZDY0ZmZlOTdkZjRhNDYxYTIiLCJiaXoiOnRydWUsImlhdCI6MTYzNzg3NTU0OX0.J62g87nfp9PRb3CdDMcqbJ15iL5oBTq6LQLpyyQaSko
+
+

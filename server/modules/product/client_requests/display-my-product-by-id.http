@@ -1,0 +1,5 @@
+@local = http://localhost:3900
+
+### Read my-own cards only
+GET {{local}}/api/products/display-my-product/61d76d6f495bde7c24dfaf6c
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWQ3NjM1Mjk2ZmRlZGQzMGJlMDkxMWYiLCJiaXoiOnRydWUsImlhdCI6MTY0MTUwNTYyN30.hazlPXvUUGzc9ZZMcUsdNU6ZV4HiOevDDZi_3Rqx5Wk

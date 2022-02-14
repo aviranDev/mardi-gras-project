@@ -1,0 +1,12 @@
+@local = http://localhost:3900
+
+POST {{local}}/api/products/create-product
+Content-Type: application/json
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWQ3NjM1Mjk2ZmRlZGQzMGJlMDkxMWYiLCJiaXoiOnRydWUsImlhdCI6MTY0MTUwNTYyN30.hazlPXvUUGzc9ZZMcUsdNU6ZV4HiOevDDZi_3Rqx5Wk
+
+{
+  "imagePath": "https://i.insider.com/5d0150e06fc9200b5a05f042?width=1000&format=jpeg&auto=webp",
+  "title": "test",
+  "description": "This is my first product!!!",
+  "price": 100
+}

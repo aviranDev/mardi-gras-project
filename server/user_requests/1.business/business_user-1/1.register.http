@@ -1,0 +1,12 @@
+@local = http://localhost:3900
+
+### User-Registration Aviran
+POST {{local}}/api/users
+Content-Type: application/json
+
+{
+  "name": "Aviran Itzhak",
+  "email": "aviran@gmail.com",
+  "password": "123456",
+  "biz": true
+}

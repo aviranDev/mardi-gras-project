@@ -1,0 +1,11 @@
+@local = http://localhost:3900
+
+### Get user details
+POST {{local}}/api/contact/contact-us 
+Content-Type: application/json
+
+{
+  "fullname": "Aviran Itzhak",
+  "email": "bob@gmail.com",
+  "message": "Hey this is a messgae from Aviran"
+}

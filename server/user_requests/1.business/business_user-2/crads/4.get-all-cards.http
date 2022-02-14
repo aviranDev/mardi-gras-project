@@ -1,0 +1,6 @@
+@local = http://localhost:3000
+
+
+GET {{local}}/api/cards
+
+

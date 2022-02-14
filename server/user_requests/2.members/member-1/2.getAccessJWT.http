@@ -1,0 +1,10 @@
+@local = http://localhost:3900
+
+### User-Access entry Bob Dylan
+POST {{local}}/api/auth 
+Content-Type: application/json
+
+{
+  "email": "bob@gmail.com",
+  "password": "123456"
+}

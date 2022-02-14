@@ -1,0 +1,4 @@
+@local = http://localhost:3000
+
+GET {{local}}/api/auth/me 
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWFlMjA0YTgwMGMwMWNlMjkzZGYwMDciLCJiaXoiOmZhbHNlLCJpYXQiOjE2Mzg4MDE0ODh9.b4P6_xlAiYHUuf8L3q-58cHUBzkBJJxpsOkY3vq7MfU

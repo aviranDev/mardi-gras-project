@@ -1,0 +1,4 @@
+@local = http://localhost:3900
+
+POST {{local}}/api/cart/checkout-payment
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRjYjY4ZmZlZjM4YTY0MzBlZjQxOGUiLCJiaXoiOmZhbHNlLCJpYXQiOjE2NDI5ODY1MDZ9.oznOPSkB6-HgpBQiwXXRvxxd28svgJMlfVl9rPKq-oQ

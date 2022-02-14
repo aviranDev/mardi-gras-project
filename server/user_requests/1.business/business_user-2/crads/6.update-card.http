@@ -1,0 +1,14 @@
+@local = http://localhost:3000
+
+
+### Update complete card by it's id
+PUT {{local}}/api/cards/61a000ef8ca7fc2cf0f34403
+Content-Type: application/json
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTlmZmZiNThjYTdmYzJjZjBmMzQzZWYiLCJiaXoiOnRydWUsImlhdCI6MTYzNzg3NTY0OX0.Sp1s5RyX3KfeXYi_D6EuOkfAKO0olpu7SyCtE_UBYBo
+
+{
+  "bizName": "Patisserie Caffee 100",
+  "bizDescription": "Coffee shop",
+  "bizAddress": "Holon Sokolov.St",
+  "bizPhone": "0524881862"
+}

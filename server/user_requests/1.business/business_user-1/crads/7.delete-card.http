@@ -1,0 +1,6 @@
+@local = http://localhost:3900
+
+
+### Delete a card by it's ID
+DELETE {{local}}/api/cards/61d659cd8686b58cb1e06b5a
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWQ2NTkyNDg2ODZiNThjYjFlMDZiNTAiLCJiaXoiOnRydWUsImlhdCI6MTY0MTU3MTE0MH0.ru2ySNFb3rWjI58GIGlTozINY-6KSwV1vyy-Wih--kk

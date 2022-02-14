@@ -1,0 +1,5 @@
+@local = http://localhost:3900
+
+### Get user details
+GET {{local}}/api/auth/signout
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWE1NzhkY2I5NjA4MzYxNzhhMmMzN2YiLCJiaXoiOnRydWUsImlhdCI6MTYzODIzNDMzNn0.aGvDtKK3Qk_AvjoyAEn1-2WtLvC89vo0O56PsBiYkuE
