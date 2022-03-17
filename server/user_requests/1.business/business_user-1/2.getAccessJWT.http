@@ -5,6 +5,6 @@ POST {{local}}/api/auth
 Content-Type: application/json
 
 {
-  "email": "aviran@gmail.com",
+  "email": "asdsadsadasd@gmail.com",
   "password": "123456"
 }

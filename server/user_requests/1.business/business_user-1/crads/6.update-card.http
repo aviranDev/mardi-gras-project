@@ -2,12 +2,12 @@
 
 
 ### Update card by it's id
-PUT {{local}}/api/cards/update/61ae439a9952cbf38ee65f9a
+PUT {{local}}/api/cards/update/6230d0cd527b4e44360b0597
 Content-Type: application/json
-x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWFlNDQ5ZDVkZmY4MTMwNmI3NWNmMmMiLCJiaXoiOnRydWUsImlhdCI6MTYzODgxMDc4NX0.JevxLuOUg9rqwD5Ib_NjK-S-n7wfytatHiwxpTaoWTQ
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjJhNWNhZjM3ODlkMWU2ZjEyYTk4NWUiLCJiaXoiOnRydWUsImlhdCI6MTY0NzM2NjMxOX0.jgYlsZhSvo1kwfPFNoM7cieG3dzLTOqZgZmsrXm9jmY
 
 {
-  "bizName": "Guitar Lession essdsdsdsdsds",
+  "bizName": "Guitar Lession 3232323",
   "bizDescription": "Guitar lession for beginners",
   "bizAddress": "Rishon lezion Herzrl.St",
   "bizPhone": "0524881862"

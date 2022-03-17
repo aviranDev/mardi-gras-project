@@ -3,7 +3,7 @@
 ### Only users whom business can create a card {biz: true}
 POST {{local}}/api/cards
 Content-Type: application/json
-x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWQ2NTkyNDg2ODZiNThjYjFlMDZiNTAiLCJiaXoiOnRydWUsImlhdCI6MTY0MTY0ODQwM30.d3iFWfl1HCiUJhP4dhe9lOllQ6JhO4H0qY-U1Bs0xJA
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjJhNWNhZjM3ODlkMWU2ZjEyYTk4NWUiLCJiaXoiOnRydWUsImlhdCI6MTY0NzM2NjMxOX0.jgYlsZhSvo1kwfPFNoM7cieG3dzLTOqZgZmsrXm9jmY
 
 {
   "bizName": "Guitar Lession",

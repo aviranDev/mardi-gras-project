@@ -5,8 +5,8 @@ POST {{local}}/api/users
 Content-Type: application/json
 
 {
-  "name": "Aviran Itzhak",
-  "email": "aviran@gmail.com",
+  "name": "sadasd asdasdasd",
+  "email": "asdsadsadasd@gmail.com",
   "password": "123456",
   "biz": true
 }
