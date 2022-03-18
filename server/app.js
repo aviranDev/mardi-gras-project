@@ -13,10 +13,6 @@ const productRoute = require("./modules/product/route");
 const contactForm = require("./modules/contact-us/route");
 const adminEntery = require("./modules/adim/route");
 let MongoStore = require('connect-mongo');
-
-app.set("trust proxy", 1);
-
-
 app.use(morgan("dev"));
 app.use(express.json());
 const corsOptions = {
@@ -39,10 +35,7 @@ app.use("/api", session({
   resave: false,
   saveUninitialized: false,
   store: MongoStore.create({ mongoUrl: process.env.URI || 'mongodb://localhost/mardi_gras_rest_api_testing' }),
-  cookie: {
-    ameSite: process.env.NODE_ENV === "production" ? 'none' : 'lax', // must be 'none' to enable cross-site delivery
-    secure: process.env.NODE_ENV === "production", // must be true if sameSite='none'
-  }
+  cookie: { httpOnly: true, maxAge: 180 * 60 * 1000 }
 }), adminEntery);
 app.use("/api/cards", cardRoute);
 app.use("/api/users", userRouter);
