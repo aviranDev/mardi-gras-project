@@ -13,6 +13,10 @@ const productRoute = require("./modules/product/route");
 const contactForm = require("./modules/contact-us/route");
 const adminEntery = require("./modules/adim/route");
 let MongoStore = require('connect-mongo');
+
+app.set("trust proxy", 1);
+
+
 app.use(morgan("dev"));
 app.use(express.json());
 const corsOptions = {
