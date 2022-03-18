@@ -39,7 +39,10 @@ app.use("/api", session({
   resave: false,
   saveUninitialized: false,
   store: MongoStore.create({ mongoUrl: process.env.URI || 'mongodb://localhost/mardi_gras_rest_api_testing' }),
-  cookie: { httpOnly: true, maxAge: 180 * 60 * 1000 }
+  cookie: {
+    ameSite: process.env.NODE_ENV === "production" ? 'none' : 'lax', // must be 'none' to enable cross-site delivery
+    secure: process.env.NODE_ENV === "production", // must be true if sameSite='none'
+  }
 }), adminEntery);
 app.use("/api/cards", cardRoute);
 app.use("/api/users", userRouter);
